@@ -1,0 +1,256 @@
+﻿﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gbk">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> {softname}BT下载,{softname}磁力下载,{softname}迅雷下载 - 到哪搜磁力搜索  </title>
+    <meta name="keywords" content="{softname}在线视频,观看{softname},{softname}高清下载,{softname}播放" />
+    <meta name="description" content="{softname}云点播,{softname}免费观看,{softname}迅雷下载,BT下载" />
+
+<link rel="stylesheet" href="/Template/haocili/Styles/bootstrap.min.css">
+<link rel="stylesheet" href="/Template/haocili/Styles/bootstrap-theme.min.css">
+<!--[if lt IE 9]><script src="../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<link href="/css/jumbotron.css" rel="stylesheet">
+<link href="/Template/haocili/Styles/main.css" rel="stylesheet">
+
+<script src="/Template/haocili/Scripts/jquery.min.js"></script> 
+    <script src="/Scripts/search.js" type="text/javascript"></script>
+
+<script language="javascript">
+function rwurl(myform){
+	if(myform.kw.value!="")
+	{
+window.location.href="/list/"+encodeURIComponent(myform.kw.value)+"/1";
+	}else{
+		return false;
+	}
+}
+function copyToClipboard(id) {
+
+   $("#"+id).text().clone();
+    alert("复制成功");
+} 
+</script></head>
+<body>
+<div id="wrapp">
+<!-- 网页代码body区开始 -->
+<div class="navbar navbar-primary navbar-fixed-top">
+  <div class="container main-container">
+    <div class="navbar-header navbar-right">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand hidden-sm" href="/"><span class="glyphicon glyphicon-magnet"></span>Haocili好磁力</a> </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/"><span class="glyphicon glyphicon-home"></span>&nbsp;首页</a></li>
+        <li class="dropdown"> <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-tasks"></span>&nbsp;功能<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class=""> <a href="about.php#ctb">磁力转BT</a> </li>
+            <li class=""> <a href="about.php#btc">BT转磁力</a> </li>
+          </ul>
+        </li>
+        <li><a href="about.php#syjc"><span class="glyphicon glyphicon-book"></span>&nbsp;使用教程</a></li>
+        <li><a href="about.php#mzsm"><span class="glyphicon glyphicon-hand-up"></span>&nbsp;免责声明</a></li>
+        <li><a href="about.php#about"><span class="glyphicon glyphicon-exclamation-sign"></span>&nbsp;关于</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  
+
+  <div class="jumbotron">
+    <div class="container main-container">
+      <div class="inerTop">
+       <div class="row">
+          <div class="col-md-2">
+            <h1>Haocili<small>好磁力</small></h1>
+          </div>
+          <div class="col-md-10">
+		 
+    
+             <form   method="get" id="topsearch" name="search" style="margin-top: 30px;">
+              <fieldset>
+                <div class="form-group margin-bottom-none">
+                <div class="input-group">
+                  
+                  <input type="text" class="form-control input-lg" baidusug="2" onkeydown="if(event.keyCode==13) {rwurl(this.form);return false;}" name="kw" placeholder="你想要的?" value="">
+                  <span class="input-group-btn">
+                  <button class="btn input-lg btn-icon btn-primary" onclick="rwurl(this.form);" type="button"><i class="fa fa-caret-right margin-left-sm margin-right-sm"></i><span class="glyphicon glyphicon-search"></span>&nbsp;搜索</button>
+                  </span> 
+                 </div>
+                 </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              <div class="text-left"> {softname} </div>
+            </h3>
+          </div>
+          <div class="panel-body"> 
+            <!-- Table -->
+            <textarea id="copytext" class="magnetlink form-control" rows="3" onclick="$(this).select();" readonly="readonly">
+magnet:?xt=urn:btih:{hash}&dn={softname}
+ </textarea>
+           </div>
+          <div class="panel-footer">
+            <div class="text-left"> 
+			<a class="btn btn-sm btn-danger" href="#qrcode" data-toggle="collapse"> <span class="glyphicon glyphicon-qrcode"></span>&nbsp;二维码 </a> &nbsp; 
+		
+			<button type="button" id="copy-button"  class="btn btn-sm btn-warning" ><span class="glyphicon glyphicon-floppy-saved"></span>&nbsp;复制链接 </button> 
+			
+			<script type="text/javascript" src="/Template/haocili/Scripts/ZeroClipboard.js?v=1288490188066.7"></script>
+			<script>
+var clip = null;
+ZeroClipboard.setMoviePath("/Template/haocili/Scripts/ZeroClipboard.swf");
+$(document).ready(function(){
+	clip = new ZeroClipboard.Client();  
+	clip.setHandCursor(true);  
+	clip.setText($("#copytext").val());  
+	clip.glue("copy-button");
+	clip.addEventListener("complete", function(){
+		alert("代码已复制到剪贴板！");
+	});
+});
+	</script>
+	      				
+			<a class="btn btn-sm btn-success" href="" onclick="alert('暂停种子下载服务！');return false;"> <span class="glyphicon glyphicon-download"></span>&nbsp;下载种子 </a>&nbsp; 
+			<a class="btn btn-sm btn-primary" href="#share" data-toggle="collapse"> <span class="glyphicon glyphicon-share"></span>&nbsp;分享朋友 </a>&nbsp; 
+		
+<div id="share" class="collapse">
+<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=1288490188066.7?v=89860593.js?v=1288490188066.7?cdnversion='+~(-new Date()/36e5)];</script>
+	</div>
+	<div id="qrcode" class="collapse">
+			<img src="picture/api.php"/>
+	</div>
+			</div>
+          </div>
+        </div>
+        
+        
+        
+      <div class="row">
+      <div class="col-md-9">
+      	  	    <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              <div class="text-left">磁力链接详情</div>
+            </h3>
+          </div>
+          <div class="panel-body"> 
+            <!-- Table -->
+			
+	
+			
+           <dl class=" dl-horizontal magnetmore">
+  <dt class="text-right">Hash值:</dt>
+  <dd class="text-left">{hash}</dd>
+    <dt class="text-right">点击数:</dt>
+  <dd class="text-left">{hit}</dd>
+   <dt class="text-right">文件大小:</dt>
+  <dd class="text-left">{length}</dd>
+  <dt class="text-right">文件数量:</dt>
+  <dd class="text-left">{filecount}</dd>
+    <dt class="text-right">创建日期:</dt>
+  <dd class="text-left">{updatetime}</dd>
+
+  <dt class="text-right">访问标签:</dt>
+  <dd class="text-left">
+ {xiangguan}
+  </dd>
+</dl>
+             </div>
+       
+      
+        </div>
+        
+        
+        
+        
+          	    <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              <div class="text-left">文件列表详情</div>
+            </h3>
+          </div>
+          <div class="panel-body"> 
+            <!-- Table -->
+           <select multiple="multiple"  rows="8" class="form-control" style="height: 100px;">
+      <!--<TemplateBegin>  
+               <option>{name}&nbsp;&nbsp;&nbsp;&nbsp;{length}</option>
+                <TemplateEnd>-->
+                   {content}
+            
+</select>   
+</div>
+
+</div>
+       
+        </div>
+      </div>
+       <div class="col-md-3">
+       
+       
+         	    <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              <div class="text-left">其他位置</div>
+            </h3>
+          </div>
+          <div class="panel-body"> 
+		  <!--adsense-->
+         </div>
+          <div class="panel-footer">
+           广告不提供保证，不承担法律责任。
+		   </div>
+        </div>
+       
+       
+       </div>   
+      </div>
+      
+      
+     
+        
+        
+        
+        
+      </div>
+    </div>
+
+
+
+  
+
+
+   
+
+  
+<a id="scrollUp" href="#top" title="" style="position: fixed; z-index: 2147483647; display: block;"></a>
+<!-- 脚步Footer区开始 --> 
+</div>
+<footer>
+     <div class="footer-bottom" >
+      <div class="container">
+        <p class="muted credit text-center"><script language="javascript" type="text/javascript" src="Scripts/16526144.js"></script><strong>© 2014 Www.haocili.coM <a href="http://www.haocili.com">好磁力</a> 本站所有资源均来源互联网,仅供技术研究,如果侵犯您的版权可以联系我们删除.</strong></p>
+
+      </div>
+    </div>
+</footer>
+  
+<!-- 脚步Footer区结束 --> 
+<!-- 网页代码body区结束 --> 
+  
+<!-- jQuery文件。务必在bootstrap.min.js?v=1288490188066.7 之前引入 --> 
+
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 --> 
+<script src="/Template/haocili/Scripts/bootstrap.min.js"></script>
+  <script charset="gbk" src="/Template/haocili/Scripts/opensug.js"></script>
+</body>
+</html>

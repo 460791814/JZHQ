@@ -1,0 +1,4 @@
+﻿文件下载网址  =>  文件保存路径
+http://www.haocili.com/img/number.png  =>  C:\Users\carl110\Desktop\桌面程序\fzxgj_549111\www.haocili.com\Images\number.png
+
+http://www.haocili.com/js/an2.js?v=1288490188066.7  =>  C:\Users\carl110\Desktop\桌面程序\fzxgj_549111\www.haocili.com\Scripts\an2.js

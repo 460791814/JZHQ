@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta http-equiv="Content-Language" content="zh-cn" />
+    <link type="text/css" href="/Styles/kbweb20120412.css" rel="stylesheet" />
+    <title> 最大最专业的快播电影搜索引擎</title>
+
+     <script src="/Scripts/jquery.js" type="text/javascript"></script>
+         <script type="text/javascript" name="baidu-tc-cerfication" src="http://apps.bdimg.com/cloudaapi/lightapp.js#d5188e4576668052672249bed922c551"></script>
+         <script type="text/javascript">             window.bd && bd._qdc && bd._qdc.init({ app_id: '74cd5e7e28e4d061cb24c7b5' });</script>
+     <script src="/Scripts/search.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+
+
+            $.ajax({
+                url: "/Handler/GetCount.ashx",
+                data: "method=getsoftcount",
+                type: "Post",
+                success: function (data) {
+                    $("#dd").html("总共收录：" + data + "个");
+                },
+                error: function () {
+
+                }
+            });
+            $.ajax({
+                url: "/Handler/GetCount.ashx",
+                data: "method=getzuoricount",
+                type: "Post",
+                success: function (data) {
+                    $("#H1").html("昨日收录：" + data + "个");
+                },
+                error: function () {
+
+                }
+            });
+            $.ajax({
+                url: "/Handler/GetCount.ashx",
+                data: "method=jinri",
+                type: "Post",
+                success: function (data) {
+                    $("#H2").html("今日收录：" + data + "个");
+                },
+                error: function () {
+
+                }
+            });
+
+        })
+
+    </script>
+    <script type="text/javascript">
+        function addFavorite(url, title) { try { window.external.addFavorite(url, title) } catch (e) { try { window.sidebar.addPanel(title, url, '') } catch (e) { alert("加入收藏失败，请使用Ctrl+D进行添加!") } } }
+
+
+</script>
+</head>
+<body>
+   
+    <div class="indexCon">
+        <div class="indexLogo">
+            <img src="/Images/logo2012.gif" />
+        </div>
+        <div class="searchmain">
+            <div class="menu">
+                <h3>
+                    站点导航</h3>
+                <ul>
+                    <li><a href="/keyword-动作片-p1.html">动作片</a></li>
+                    <li><a href="/keyword-爱情片-p1.html">爱情片</a></li>
+                    <li><a href="/keyword-科幻片-p1.html">科幻片</a></li>
+                    <li><a href="/keyword-电视剧-p1.html">电视剧</a></li>
+                </ul>
+            </div>
+            <div class="searchinput">
+                <div class="searchform">
+                  
+                    <input id="keyWord" baiduSug="1" name="k" type="text" value="" />
+                    <button class="btn" id="btnSouba" onmouseout="this.className='btn'" onmouseover="this.className='soubt'"
+                        type="button">
+                        搜索</button>
+                    <button class="yesbtn" onclick="random();"   onmouseout="this.className='yesbtn'"
+                        onmouseover="this.className='yesbtn2'" type="button">
+                        手气不错</button>
+                </div>
+            </div>
+        </div>
+        <div class="djs1">
+       
+            <h6 id="dd">
+                总共收录：</h6>
+            <h6 id="H2">
+                今日收录：</h6>
+            <h6 id="H1">
+                昨日收录：</h6>
+        </div>
+        <div class="bestlist">
+            <ul>
+                <li><span style="color: #0099CC;">电影</span> 
+                <a href="/keyword-私人定制-p1.html">私人定制</a>
+
+                </li>
+                <li>
+                    <span style="color: #FF0000;">剧集</span> 
+                    <a href="/keyword-最美的时光-p1.html">最美的时光</a>
+
+                    </li>
+                    <li>
+                        <span style="color: #009900;">动漫</span> 
+                        <a href="/keyword-名侦探柯南-p1.html">名侦探柯南</a>
+
+                        </li>
+                        <li>
+                            <span style="color: #0099CC;">综艺</span>
+                            <a href="/keyword-爸爸去哪儿-p1.html">爸爸去哪儿</a>
+
+                        </li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>
+            本站所有内容系自动搜索生成的结果，排列及分类仅为方便使用，本站与内容的出处无关。</p>
+        <p>
+            &copy;2012 9skb V2.0<a target="_blank" rel="nofollow" href="#">快播下载</a>
+            | <a href="javascript:void(0);" onclick="#">联系站长</a><br />
+            <span></span>
+        </p>
+    </div>
+</body>
+</html>
+<!--执行耗时:0ms 执行时间:2014-04-30 11:41:04-->

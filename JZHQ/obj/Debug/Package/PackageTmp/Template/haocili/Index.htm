@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gbk">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>更新最快的磁力搜索BT搜索 - 搜一搜什么都有了,到那搜磁力搜搜</title>
+    <meta name="keywords" content="磁力搜索,磁力链接,种子搜索,最新电影,搜索神器,高清下载,迅雷下载,BT搜搜,到哪搜" />
+    <meta name="description" content="好磁力是一个磁力搜索,BT搜索,磁力链接的磁力搜索引擎" />
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="stylesheet" href="/Template/haocili/Styles/bootstrap.min.css">
+<link rel="stylesheet" href="/Template/haocili/Styles/bootstrap-theme.min.css">
+<link href="/css/jumbotron.css?v=1288490188066.7" rel="stylesheet">
+<link href="/Template/haocili/Styles/main.css" rel="stylesheet">
+<script src="/Template/haocili/Scripts/jquery.min.js"></script> 
+    <script src="/Scripts/search.js" type="text/javascript"></script>
+
+<script language="javascript">
+function rwurl(myform){
+	if(myform.kw.value!="")
+	{
+window.location.href="/list/"+encodeURIComponent(myform.kw.value)+"/1";
+	}else{
+		return false;
+	}
+}
+ $(function () {
+
+
+            $.ajax({
+                url: "/Handler/GetCount.ashx",
+                data: "method=getsoftcount",
+                type: "Post",
+                success: function (data) {
+                    $("#dd").html("总共收录：" + data+"467个");
+                },
+                error: function () {
+                
+                }
+            });
+            $.ajax({
+                url: "/Handler/GetCount.ashx",
+                data: "method=getzuoricount",
+                type: "Post",
+                success: function (data) {
+                    $("#H1").html("昨日收录：" + data + "个");
+                },
+                error: function () {
+                  
+                }
+            });
+            $.ajax({
+                url: "/Handler/GetCount.ashx",
+                data: "method=jinri",
+                type: "Post",
+                success: function (data) {
+                    $("#H2").html("今日收录：" + data + "245个");
+                },
+                error: function () {
+                    
+                }
+            });
+
+        })
+
+
+</script></head>
+<body>
+<div id="wrapp">
+<!-- 网页代码body区开始 -->
+<div class="navbar navbar-primary navbar-fixed-top">
+  <div class="container main-container">
+    <div class="navbar-header navbar-right">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand hidden-sm" href="/"><span class="glyphicon glyphicon-magnet"></span>Daonaso到哪搜</a> </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/"><span class="glyphicon glyphicon-home"></span>&nbsp;首页</a></li>
+        <li class="dropdown"> <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-tasks"></span>&nbsp;功能<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class=""> <a href="about.php#ctb">磁力转BT</a> </li>
+            <li class=""> <a href="about.php#btc">BT转磁力</a> </li>
+          </ul>
+        </li>
+        <li><a href="about.php#syjc"><span class="glyphicon glyphicon-book"></span>&nbsp;使用教程</a></li>
+        <li><a href="about.php#mzsm"><span class="glyphicon glyphicon-hand-up"></span>&nbsp;免责声明</a></li>
+        <li><a href="about.php#about"><span class="glyphicon glyphicon-exclamation-sign"></span>&nbsp;关于</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+&nbsp; 
+<div class="jumbotron">
+  <div class="container main-container">
+    <div class="alert alert-info alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+  <strong>网站上线公告:</strong>&nbsp;&nbsp;欢迎来到本站：本站目前更新资源平均每天10万磁力,目前互联网最快的磁力搜索,因刚刚上线可能资源少,时间越长资源越多,到百度搜《《到哪搜磁力》》就能找到本站! 
+</div><div class="indexTop">
+      <h1>Daonaso<small>到哪搜</small></h1>
+	  <div id="hotTag">
+      <small><h2 id="dd">总共收录:</h2></small>
+	  </div>
+ <form    method="get" id="topsearch" name="search">
+                    <fieldset>
+                        <div class="form-group margin-bottom-none">
+                            <div class="input-group">
+                          
+                           <input type="text" class="form-control input-lg" baidusug="2" onkeydown="if(event.keyCode==13) {rwurl(this.form);return false;}" name="kw" id="keyWord" autocomplete="off" placeholder="这里填写你要搜索的内容">
+                             
+                            
+                                <span class="input-group-btn">
+                                    <button  id="btnSouba" type="button" class="btn input-lg btn-icon btn-primary"><i class="fa fa-caret-right margin-left-sm margin-right-sm"></i><span class="glyphicon glyphicon-search"></span>&nbsp;搜索</button>
+                                </span>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+				
+				  
+				
+				<a href="/list/小时代3/1" class="btn btn-info">小时代3</a>
+				
+        
+				<a href="/list/x战警：逆转未来/1" class="btn btn-info">x战警：逆转未来</a>
+				
+        
+				<a href="/list/老男孩猛龙过江/1" class="btn btn-info">老男孩猛龙过江</a>
+				
+        
+				<a href="/list/变形金刚4：绝迹重生/1" class="btn btn-info">变形金刚4：绝迹重生</a>
+				
+        
+				<a href="/list/分手大师/1" class="btn btn-info">分手大师</a>
+				
+        
+				<a href="/list/沉睡魔咒/1" class="btn btn-info">沉睡魔咒</a>
+				
+        
+				<a href="/list/哥斯拉/1" class="btn btn-info">哥斯拉</a>
+				
+        
+				<a href="/list/明日边缘/1" class="btn btn-info">明日边缘</a>
+				
+        
+	
+  </div>
+</div>
+
+
+   
+
+  
+
+<!-- 脚步Footer区开始 --> 
+</div>
+
+  
+<!-- 脚步Footer区结束 --> 
+<!-- 网页代码body区结束 --> 
+  
+<!-- jQuery文件。务必在bootstrap.min.js?v=1288490188066.7 之前引入 --> 
+
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 --> 
+<script src="/Template/haocili/Scripts/bootstrap.min.js"></script>
+<script charset="gbk" src="/Template/haocili/Scripts/opensug.js"></script>
+</body>
+<footer>
+     <div class="footer-bottom" >
+      <div class="container">
+        <p class="muted credit text-center"><strong>2014 www.daonaso.com <a href="http://www.daonaso.com">到哪搜</a> 本站所有资源均来源互联网,仅供技术研究,如果侵犯您的版权可以联系我们删除.</strong></p>
+
+      </div>
+    </div>
+</footer>
+</html>

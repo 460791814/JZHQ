@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <link type="text/css" href="/Styles/kbweb20120412.css" rel="stylesheet" />
+     <script src="/Scripts/jquery.js" type="text/javascript"></script>
+     <script src="/Scripts/search.js" type="text/javascript"></script>
+    <title>{keyword}</title>
+
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1>
+             <!--   <a href="/" title="就搜快播">就搜快播</a> -->
+                <img style="width:160px;height:42px" src="/Images/logo2012.gif" /></h1>
+        </div>
+        <div class="searchmain">
+            <div class="menu">
+                <h3>
+                    站点导航</h3>
+                <ul>
+                                       <li><a href="/keyword-动作片-p1.html">
+                        动作片</a></li>
+                        <li><a href="/keyword-爱情片-p1.html">爱情片</a></li>
+                        <li><a href="/keyword-科幻片-p1.html">科幻片</a></li>
+                        <li><a href="/keyword-电视剧-p1.html">电视剧</a></li></ul>
+            </div>
+            <div class="searchinput">
+                <div class="searchform">
+                  
+                    <input id="keyWord" name="k" type="text" value="{keyword}" />
+                    <button class="btn" id="btnSouba" onmouseout="this.className='btn'" onmouseover="this.className='soubt'"
+                        type="submit">
+                        搜索</button>
+                    <button class="yesbtn" onclick="random();" id="yesbtn" onmouseout="this.className='yesbtn'"
+                            onmouseover="this.className='yesbtn2'" type="button">
+                            试下手气</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav">
+        <div class="menu">
+            <div class="goindex">
+              </div>
+            <div class="sinfo">
+                <em>{keyword}</em> 共找到 <em>{total}</em> 个结果 </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="center">
+           
+        </div>
+        <div class="content">
+            <div id="maintop468">
+             
+            </div>
+            <div class="containerborder">
+                <div class="title">
+                    <b class="bg_round"></b>
+                    <div class="info">
+                        <span class="wcol2 fleft">片名</span><span class="wcol3 fleft">大小</span><span
+                            class="wcol4 fleft">格式</span><span class="wcol5 fleft">文件数量</span><span class="wcol6 fleft">收录日期</span><span
+                                class="wcol7 fleft">下载</span></div>
+                    <b class="bg_round"></b>
+                </div>
+    <!--<TemplateBegin>  
+                <div  class="clear">
+                    <div class="ml" onmouseover="this.className='mlbg'" onmouseout="this.className='ml'">
+                        <div class="movelist">
+                            <div class="info">
+                              
+                                <div class="con  wcol2">
+                                    <h4>
+                                       <a href="h-{url}.html">{Name}</a></h4>
+                                </div>
+                                <div class="size wcol3">
+                                    <em>{length}</em></div>
+                                <div class="wcol4 fleft">
+                                    rmvb</div>
+                                <div class="wcol5 fleft">
+                                   {filecount}</div>
+                                <div class="wcol6 fleft">
+                                    {updatetime}</div>
+                                <div class="play wcol7">
+                                    <a href="h-{url}.html" rel="nofollow" title="马上下载" target="_blank" class="vd">
+                                        下载</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="urllist hidden" id="hid-1-3499198">
+                        <div id="hid-1-3499198-td">
+                        </div>
+                    </div>
+                </div>
+                <TemplateEnd>-->
+                 {content}
+                <div class="ResultPage">
+                   {$ShowPage}</div>
+                <div>
+                  
+                </div>
+            </div>
+        </div>
+        <div class="sider">
+           <iframe frameborder="0" scrolling="no" src="/RightIframe.html" height="785px" width="200px">
+            </iframe>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="con">
+            
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>
+            本站所有内容系自动搜索生成的结果，排列及分类仅为方便使用，本站与内容的出处无关。</p>
+        <p>
+            &copy;2012 9skb V2.0<a target="_blank" rel="nofollow" href="#">快播下载</a>
+            | <a href="javascript:void(0);" >联系站长</a><br />
+
+        </p>
+    </div>
+</body>
+</html>
+<!--执行耗时:64ms 执行时间:2014-04-30 11:42:40-->

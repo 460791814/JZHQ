@@ -1,0 +1,43 @@
+.fb_art{width:55px; height:25px; background:url(../imgs/art.png) no-repeat -90px -292px; font-size:12px; margin-left:10px; line-height:26px; padding-left:25px; margin-top:5px;}
+.up_soft{width:55px; height:25px; background:url(../imgs/art.png) no-repeat 0px -292px; font-size:12px;line-height:26px; padding-left:25px; margin-top:5px;}
+
+/********************最新资讯  热门资讯*********************/
+.box_ph{width:230px; margin:0px auto; position:relative; margin-bottom:10px;}
+.box_ph .nav{width:217px;float:left; height:32px; overflow: hidden; padding-left:1px; border:1px solid #bed9e4; border-bottom:0px;padding-bottom: 5px;background: url("../imgs/one.png") repeat-x 0px -361px; padding-left:10px;}
+.box_ph .nav li{font-size:14px; float:left; width:76px; height:32px;cursor:pointer; text-align:center; line-height:32px; list-style-type:none;}
+.box_ph .nav li.curr{width:76px;height:32px;color:#000;font-weight:bold;background: url("../imgs/one.png") no-repeat -254px 0px;}
+.box_ph .content{width:217px;border:1px solid #dadada; border-top:0px;margin: 0px auto; clear:both; padding-left:10px; padding-top:5px;}
+
+.box_ph .content ul{ background:url(../img/nub10.gif) no-repeat 0px 3px;list-style-type: none;text-align: left; padding-bottom:10px; padding-left:15px; line-height:25px;}
+.box_ph .content ul li{overflow:hidden; font-size:12px;padding: 0px 5px;}
+.box_ph .content ul li a{color:#333;}
+.box_ph .content ul li a:hover{color:#f00;}
+
+/********************资讯列表*********************/
+.art_list_bk{width:760px; overflow:hidden; position:relative;}
+.art_list_bk .art_lm{width:115px; height:37px; background:url(../imgs/art.png) no-repeat 0px -343px; display:blockl; float:left; color:#FFF; font-family:"微软雅黑"; font-size:16px; text-align:center; line-height:37px;}
+.art_list_bk .art_lm_qh{float:right; height:27px; margin-top:10px; position:absolute; top:2px; right:0px;}
+.art_list_bk .art_lm_qh a{height:27px; display:block; float:left; cursor:pointer; width:73px; text-align:center;line-height: 27px;}
+.art_list_bk .art_lm_qh a.curr{ line-height:27px;font-weight:bold; background:url(../imgs/art_lm.png) no-repeat;}
+.art_list_bk .content{clear:both; border:1px solid #bed9e4; border-top:2px solid #00857a; background:#f2fafb; padding:10px 20px;}
+
+.part_rec{width:710px;background:url(../imgs/art.png) no-repeat 0px -414px;overflow:hidden;font-family:"微软雅黑"; border-bottom:1px dotted #CCCCCC; padding-bottom: 20px;margin-top: 10px;}
+.part_rec b{width:70px; line-height:25px; float:left; text-align:center; color:#FFFF00; font-size:14px;}
+.part_rec a{float:left; margin-left:20px; font-size:16px; color:#FF3300; font-weight:bold;}
+
+.art_list_bk .content ul{margin:20px 0px; font-size:14px;}
+.art_list_bk .content ul li{line-height:44px; font-family:Arial, Helvetica, sans-serif;color:#CCC; }
+.art_list_bk .content ul li a{font-family:"宋体"; float:left; color:#333;width:620px;height:44px;margin-right:10px; overflow: hidden;}
+.art_list_bk .content ul li a:hover{color:#F00;}
+
+/*分页样式*/
+/*.showpage_info{clear:left;font-size:12px;width:635px;height:30px;padding-left: 5px;padding-top:5px;font-family:Arial; margin-top:10px;margin-top:10px;margin-bottom:10px;}
+.showpage_info .nextpage{margin-left:2px;margin-right:2px;padding:0px 5px;display: block; float:left; border:1px solid #C1C1C1; color:#2E6AB1;}
+#ArticleShowPage{clear:left;font-size:12px;width:635px;height:30px;padding-left: 5px;padding-top:5px;font-family:Arial; margin-top:10px;margin-top:10px;margin-bottom:10px;}
+#ArticleShowPage a{margin-left:2px;margin-right:2px;padding:0px 5px;display: block; float:left; border:1px solid #C1C1C1;}
+.page{margin-left:2px;margin-right:2px;padding:0px 6px;display: block; float:left; border:1px solid #C1C1C1; color:#2E6AB1;}
+.page_on{background-color: #2E6AB1;color: #fff;text-decoration: none;font-size: 14px;display: block;margin-left:2px;margin-right:2px;padding:1px 6px;float:left;}
+.page_on a{color:#FFF;}
+.page_on a:hover{color:#2E6AB1;}
+.NextPage{margin-left:2px;margin-right:2px;padding:0px 5px;display: block; float:left; border:1px solid #C1C1C1; color:#2E6AB1;}
+.prepage{margin-left:2px;margin-right:2px;padding:0px 5px;display: block; float:left; border:1px solid #C1C1C1; color:#2E6AB1;}*/

@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48BD290E-B708-4FAC-8D56-9132307EF580}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JZHQ</RootNamespace>
+    <AssemblyName>JZHQ</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="API.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="HashToBt.aspx" />
+    <Content Include="Images\9skb-spr.png" />
+    <Content Include="Images\all.png" />
+    <Content Include="Images\bdlogo.png" />
+    <Content Include="Images\bg-rx.png" />
+    <Content Include="Images\bg_list01.png" />
+    <Content Include="Images\bg_list02.png" />
+    <Content Include="Images\bg_tabspr.png" />
+    <Content Include="Images\bt1.gif" />
+    <Content Include="Images\btn_play.gif" />
+    <Content Include="Images\button_bg.png" />
+    <Content Include="Images\download_icon.gif" />
+    <Content Include="Images\icons_4879d3b8.png" />
+    <Content Include="Images\indexbg.jpg" />
+    <Content Include="Images\loading2.gif" />
+    <Content Include="Images\logo2012.gif" />
+    <Content Include="Images\ok.png" />
+    <Content Include="Images\ranplaybtn.gif" />
+    <Content Include="Images\repeat_bg.png" />
+    <Content Include="Images\sprite_content.png" />
+    <Content Include="Images\suit_bg.png" />
+    <Content Include="Images\treeview-default-line.gif" />
+    <Content Include="Template\haocili\Error.txt" />
+    <Content Include="Template\haocili\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Template\haocili\Images\bjs.png" />
+    <Content Include="Template\haocili\Images\bjs_1.png" />
+    <Content Include="Template\haocili\Images\number.png" />
+    <Content Include="Template\haocili\Images\top.png" />
+    <Content Include="Template\haocili\Index.htm" />
+    <Content Include="Template\haocili\Scripts\ZeroClipboard.swf" />
+    <Content Include="Template\haocili\SoftInfo.htm" />
+    <Content Include="Template\haocili\Scripts\16526144.js" />
+    <Content Include="Template\haocili\Scripts\bootstrap.min.js" />
+    <Content Include="Template\haocili\Scripts\jquery.min.js" />
+    <Content Include="Template\haocili\Scripts\opensug.js" />
+    <Content Include="Template\haocili\Scripts\zeroclipboard.js" />
+    <Content Include="Template\haocili\Search.htm" />
+    <Content Include="Template\haocili\Styles\bootstrap-theme.min.css" />
+    <Content Include="Template\haocili\Styles\bootstrap.min.css" />
+    <Content Include="Template\haocili\Styles\bootstrap.min1.css" />
+    <Content Include="Template\haocili\Styles\jumbotron.css" />
+    <Content Include="Template\haocili\Styles\main.css" />
+    <Content Include="Template\Search\Index.htm" />
+    <Content Include="Template\ask\Index.htm" />
+    <Content Include="Template\ask\RightIframe.htm" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\search.js" />
+    <Content Include="Search.aspx" />
+    <Content Include="skins\css\article.css" />
+    <Content Include="skins\css\art_list.css" />
+    <Content Include="skins\css\css.css" />
+    <Content Include="skins\css\css_header.css" />
+    <Content Include="skins\css\info.css" />
+    <Content Include="skins\css\public.css" />
+    <Content Include="skins\css\shuxue.css" />
+    <Content Include="skins\css\soft.css" />
+    <Content Include="skins\css\wb_botton.css" />
+    <Content Include="skins\imgs\art.png" />
+    <Content Include="skins\imgs\art_lm.png" />
+    <Content Include="skins\imgs\banner1.jpg" />
+    <Content Include="skins\imgs\banner2.jpg" />
+    <Content Include="skins\imgs\bq_bg.jpg" />
+    <Content Include="skins\imgs\ggt.jpg" />
+    <Content Include="skins\imgs\ico.png" />
+    <Content Include="skins\imgs\lxwm.jpg" />
+    <Content Include="skins\imgs\n1.jpg" />
+    <Content Include="skins\imgs\n2.jpg" />
+    <Content Include="skins\imgs\one.png" />
+    <Content Include="skins\imgs\qh_bg.png" />
+    <Content Include="skins\imgs\QQ.jpg" />
+    <Content Include="skins\imgs\td.jpg" />
+    <Content Include="skins\imgs\xiao_tb.png" />
+    <Content Include="skins\img\0f000QkbRNVy8MWNV_Na5f.jpg" />
+    <Content Include="skins\img\360.jpg" />
+    <Content Include="skins\img\allbg_e44ec0bc.png" />
+    <Content Include="skins\img\art.png" />
+    <Content Include="skins\img\baidu.jpg" />
+    <Content Include="skins\img\bgqh_info.jpg" />
+    <Content Include="skins\img\close.png" />
+    <Content Include="skins\img\dhbg.jpg" />
+    <Content Include="skins\img\dhbg2.jpg" />
+    <Content Include="skins\img\downbg.gif" />
+    <Content Include="skins\img\edit_bg.gif" />
+    <Content Include="skins\img\ewt_off.jpg" />
+    <Content Include="skins\img\google.jpg" />
+    <Content Include="skins\img\home.gif" />
+    <Content Include="skins\img\hot.jpg" />
+    <Content Include="skins\img\ico-pur.png" />
+    <Content Include="skins\img\ico.png" />
+    <Content Include="skins\img\icobg.png" />
+    <Content Include="skins\img\icon_cologin_20130613.png" />
+    <Content Include="skins\img\ico_it.png" />
+    <Content Include="skins\img\infobg.png" />
+    <Content Include="skins\img\info_oper.png" />
+    <Content Include="skins\img\jyjg.jpg" />
+    <Content Include="skins\img\lang_bg1.jpg" />
+    <Content Include="skins\img\lanm.png" />
+    <Content Include="skins\img\listbg.png" />
+    <Content Include="skins\img\logo.jpg" />
+    <Content Include="skins\img\more_select.png" />
+    <Content Include="skins\img\navsj.gif" />
+    <Content Include="skins\img\navsj1.gif" />
+    <Content Include="skins\img\nub10.gif" />
+    <Content Include="skins\img\old.gif" />
+    <Content Include="skins\img\open.png" />
+    <Content Include="skins\img\paih.png" />
+    <Content Include="skins\img\ph.jpg" />
+    <Content Include="skins\img\qhbg.png" />
+    <Content Include="skins\img\qued.jpg" />
+    <Content Include="skins\img\right_bg.gif" />
+    <Content Include="skins\img\sco_but.jpg" />
+    <Content Include="skins\img\search_nav.png" />
+    <Content Include="skins\img\select.gif" />
+    <Content Include="skins\img\softsj.gif" />
+    <Content Include="skins\img\softsj.png" />
+    <Content Include="skins\img\soft_more.png" />
+    <Content Include="skins\img\soso.jpg" />
+    <Content Include="skins\img\ssk.jpg" />
+    <Content Include="skins\img\stars-s.png" />
+    <Content Include="skins\img\stars.png" />
+    <Content Include="skins\img\sxlogo.png" />
+    <Content Include="skins\img\tie.png" />
+    <Content Include="skins\img\tj_ioc.png" />
+    <Content Include="skins\img\top_bg.jpg" />
+    <Content Include="skins\img\top_logo.jpg" />
+    <Content Include="skins\img\top_qqdl.gif" />
+    <Content Include="skins\img\top_sj.gif" />
+    <Content Include="skins\img\top_sj11.gif" />
+    <Content Include="skins\img\top_xkwdl.gif" />
+    <Content Include="skins\img\upart.jpg" />
+    <Content Include="skins\img\upsoft.jpg" />
+    <Content Include="skins\img\userface.jpg" />
+    <Content Include="skins\img\user_zl.jpg" />
+    <Content Include="skins\img\wzdh_ico.gif" />
+    <Content Include="skins\img\xiant.gif" />
+    <Content Include="skins\img\yzm.jpg" />
+    <Content Include="skins\js\jqs2013.res.js" />
+    <Content Include="skins\js\jquery.js" />
+    <Content Include="skins\js\xkCommon.js" />
+    <Content Include="SoftInfo.aspx" />
+    <Content Include="Styles\bootstrap_gai.min1.css" />
+    <Content Include="Styles\default.css" />
+    <Content Include="Styles\hashtobt.css" />
+    <Content Include="Styles\head.css" />
+    <Content Include="Styles\index.css" />
+    <Content Include="Styles\kbweb20120412.css" />
+    <Content Include="Styles\treeview.css" />
+    <Content Include="Styles\V2.2\css\base.css" />
+    <Content Include="Styles\V2.2\css\basePrevious.css" />
+    <Content Include="Styles\V2.2\css\so1.css" />
+    <Content Include="Styles\V2.2\img\ico-pur.png" />
+    <Content Include="Styles\V2.2\img\icon.png" />
+    <Content Include="Styles\V2.2\img\icon2.png" />
+    <Content Include="Styles\V2.2\img\icon22.png" />
+    <Content Include="Styles\V2.2\img\icon3.png" />
+    <Content Include="Styles\V2.2\img\jp.png" />
+    <Content Include="Styles\V2.2\img\logo.png" />
+    <Content Include="Styles\V2.2\img\logo1.jpg" />
+    <Content Include="Styles\V2.2\img\seachbox.jpg" />
+    <Content Include="Styles\V2.2\img\tg.png" />
+    <Content Include="Styles\V2.2\img\top-bj.png" />
+    <Content Include="Template\ask\Search.htm" />
+    <Content Include="Template\ask\SoftInfo.htm" />
+    <Content Include="Template\Search\Search.htm" />
+    <Content Include="Template\Search\SoftInfo.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API.aspx.cs">
+      <DependentUpon>API.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="API.aspx.designer.cs">
+      <DependentUpon>API.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\AddToKeyWord.ashx.cs">
+      <DependentUpon>AddToKeyWord.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\bt.cs" />
+    <Compile Include="Handler\GetCount.ashx.cs">
+      <DependentUpon>GetCount.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\hashTool.cs" />
+    <Compile Include="Handler\HitSoft.ashx.cs">
+      <DependentUpon>HitSoft.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\TorrentFile.cs" />
+    <Compile Include="HashToBt.aspx.cs">
+      <DependentUpon>HashToBt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HashToBt.aspx.designer.cs">
+      <DependentUpon>HashToBt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SoftInfo.aspx.cs">
+      <DependentUpon>SoftInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SoftInfo.aspx.designer.cs">
+      <DependentUpon>SoftInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Top100.aspx.cs">
+      <DependentUpon>Top100.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Top100.aspx.designer.cs">
+      <DependentUpon>Top100.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadBT.aspx.cs">
+      <DependentUpon>UploadBT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadBT.aspx.designer.cs">
+      <DependentUpon>UploadBT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpLoadList.aspx.cs">
+      <DependentUpon>UpLoadList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpLoadList.aspx.designer.cs">
+      <DependentUpon>UpLoadList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VersionAPI.aspx.cs">
+      <DependentUpon>VersionAPI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VersionAPI.aspx.designer.cs">
+      <DependentUpon>VersionAPI.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Template\Search\Top.htm" />
+    <Content Include="Template\Search\upload.htm" />
+    <Content Include="Template\torrentba\Images\art.png" />
+    <Content Include="Template\torrentba\Images\bg-pt.png" />
+    <Content Include="Template\torrentba\Images\bg-red.png" />
+    <Content Include="Template\torrentba\Images\btn-98-114.png" />
+    <Content Include="Template\torrentba\Images\bulb.gif" />
+    <Content Include="Template\torrentba\Images\gb_toolbar.png" />
+    <Content Include="Template\torrentba\Images\head1.gif" />
+    <Content Include="Template\torrentba\Images\main_20111110.png" />
+    <Content Include="Template\torrentba\Images\pt_item.png" />
+    <Content Include="Template\torrentba\Images\search.png" />
+    <Content Include="Template\torrentba\Images\shadow-bottom.png" />
+    <Content Include="Template\torrentba\Images\u.png" />
+    <Content Include="Template\torrentba\Index.htm" />
+    <Content Include="Template\torrentba\picture\14005681.png" />
+    <Content Include="Template\torrentba\picture\www.png" />
+    <Content Include="Template\torrentba\picture\loading.gif" />
+    <Content Include="Template\torrentba\picture\logo.png" />
+    <Content Include="Template\torrentba\picture\logo_home.png" />
+    <Content Include="Template\torrentba\Scripts\6b48dfe28a2c45de905f815a3b9dbf50.js" />
+    <Content Include="Template\torrentba\Scripts\base64.js" />
+    <Content Include="Template\torrentba\Scripts\common.js" />
+    <Content Include="Template\torrentba\Scripts\index.js" />
+    <Content Include="Template\torrentba\Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Template\torrentba\Scripts\jquery-t.js" />
+    <Content Include="Template\torrentba\Scripts\jquery.zclip.min.js" />
+    <Content Include="Template\torrentba\Scripts\search.js" />
+    <Content Include="Template\torrentba\Scripts\thunderforum.js" />
+    <Content Include="Template\torrentba\Scripts\toolbar.js" />
+    <Content Include="Template\torrentba\Scripts\toolbar1.js" />
+    <Content Include="Template\torrentba\Scripts\uaredirect.js" />
+    <Content Include="Template\torrentba\Scripts\webthunderdetect.js" />
+    <Content Include="Template\torrentba\Search.htm" />
+    <Content Include="Template\torrentba\SoftInfo.htm" />
+    <Content Include="Template\torrentba\Styles\global.css" />
+    <Content Include="Top100.aspx" />
+    <Content Include="UploadBT.aspx" />
+    <Content Include="UpLoadList.aspx" />
+    <Content Include="VersionAPI.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{EA7426CB-6E7B-4F78-958A-F6EFE324B80B}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{3889255C-B6E1-4C6E-A92C-50BAB4C61F9D}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PageUI\PageUI.csproj">
+      <Project>{18FBCAAD-97DB-41B2-8959-0561535AF8D7}</Project>
+      <Name>PageUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\URLRewriter\URLRewriter.csproj">
+      <Project>{93BC01A3-A42C-44D9-83CB-6A249A284A96}</Project>
+      <Name>URLRewriter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="UMULib">
+      <Guid>{C2375F94-212E-40B6-98C3-92911279DCD2}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handler\AddToKeyWord.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handler\HitSoft.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handler\GetCount.ashx" />
+    <Content Include="Handler\Handler.ashx" />
+    <Content Include="packages.config" />
+    <None Include="skins\imgs\one.psd" />
+    <None Include="Template\haocili\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Template\haocili\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Template\haocili\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Template\haocili\picture\api.php" />
+    <None Include="Template\torrentba\Scripts\cs.php" />
+    <None Include="Template\torrentba\Scripts\load_1.php" />
+    <None Include="Template\torrentba\Scripts\s.php" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9228</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

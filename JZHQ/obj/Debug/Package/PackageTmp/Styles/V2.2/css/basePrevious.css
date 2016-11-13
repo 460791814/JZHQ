@@ -1,0 +1,8 @@
+﻿/*原有样式*/
+.querydata{ display:none;}
+
+div.introdiv{overflow:hidden;word-break:break-all;width:620px;font-size:13px; overflow:hidden;}
+
+div.norecord{font-size:13px;font-weight:bold;line-height:25px;}
+
+.suggest { background:url("/img/btn-suggest.jpg")  no-repeat;border:1px solid #aaccff; width:81px; height:33px; }

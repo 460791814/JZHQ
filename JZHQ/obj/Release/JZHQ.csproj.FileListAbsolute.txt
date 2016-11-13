@@ -1,0 +1,126 @@
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\JZHQ.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\JZHQ.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\BLL.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\Model.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\PageUI.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\URLRewriter.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\DAL.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\PanGu.Lucene.Analyzer.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\LibraryTool.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\Lucene.Net.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\PanGu.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\DBUtility.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\PanGu.HighLight.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\BLL.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\Model.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\PageUI.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\URLRewriter.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\DAL.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\LibraryTool.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\bin\DBUtility.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\obj\Release\JZHQ.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\obj\Release\Interop.UMULib.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\obj\Release\JZHQ.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\obj\Release\JZHQ.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\JZHQ\obj\Release\JZHQ.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\JZHQ.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\JZHQ.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\BLL.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\Model.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\PageUI.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\URLRewriter.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\DAL.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\PanGu.Lucene.Analyzer.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\LibraryTool.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\Lucene.Net.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\PanGu.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\DBUtility.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\PanGu.HighLight.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\BLL.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\Model.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\PageUI.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\URLRewriter.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\DAL.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\LibraryTool.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\bin\DBUtility.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\obj\Release\JZHQ.csprojResolveAssemblyReference.cache
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\obj\Release\Interop.UMULib.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\obj\Release\JZHQ.csproj.ResolveComReference.cache
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\obj\Release\JZHQ.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\JZHQ\obj\Release\JZHQ.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\JZHQ.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\JZHQ.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\BLL.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\Model.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\PageUI.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\URLRewriter.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\DAL.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\LibraryTool.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\PanGu.Lucene.Analyzer.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\Lucene.Net.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\PanGu.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\DBUtility.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\PanGu.HighLight.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\BLL.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\Model.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\PageUI.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\URLRewriter.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\DAL.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\LibraryTool.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\bin\DBUtility.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\obj\Release\JZHQ.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\obj\Release\Interop.UMULib.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\obj\Release\JZHQ.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\obj\Release\JZHQ.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\JZHQ\obj\Release\JZHQ.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\JZHQ.dll
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\JZHQ.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\BLL.dll
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\Model.dll
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\PageUI.dll
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\URLRewriter.dll
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\DAL.dll
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\PanGu.Lucene.Analyzer.dll
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\LibraryTool.dll
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\Lucene.Net.dll
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\PanGu.dll
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\DBUtility.dll
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\PanGu.HighLight.dll
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\BLL.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\Model.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\PageUI.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\URLRewriter.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\DAL.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\LibraryTool.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\DBUtility.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\obj\Release\JZHQ.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\obj\Release\Interop.UMULib.dll
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\obj\Release\JZHQ.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\obj\Release\JZHQ.dll
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\obj\Release\JZHQ.pdb
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\JZHQ.dll
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\JZHQ.pdb
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\BLL.dll
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\Model.dll
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\PageUI.dll
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\URLRewriter.dll
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\DAL.dll
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\PanGu.Lucene.Analyzer.dll
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\LibraryTool.dll
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\Lucene.Net.dll
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\PanGu.dll
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\DBUtility.dll
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\PanGu.HighLight.dll
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\BLL.pdb
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\Model.pdb
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\PageUI.pdb
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\URLRewriter.pdb
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\DAL.pdb
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\LibraryTool.pdb
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\bin\DBUtility.pdb
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\obj\Release\JZHQ.csprojResolveAssemblyReference.cache
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\obj\Release\Interop.UMULib.dll
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\obj\Release\JZHQ.csproj.ResolveComReference.cache
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\obj\Release\JZHQ.dll
+C:\Users\carl110\Desktop\code\JZHQ\JZHQ\obj\Release\JZHQ.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\JZHQ\bin\MySql.Data.dll

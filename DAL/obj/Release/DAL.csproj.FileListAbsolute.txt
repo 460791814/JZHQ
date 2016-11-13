@@ -1,0 +1,46 @@
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\DAL\bin\Release\DAL.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\DAL\bin\Release\DAL.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\DAL\bin\Release\DBUtility.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\DAL\bin\Release\Model.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\DAL\bin\Release\DBUtility.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\DAL\bin\Release\Model.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\DAL\obj\Release\DAL.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\DAL\obj\Release\DAL.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\DAL\bin\Release\DAL.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\DAL\bin\Release\DAL.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\DAL\bin\Release\DBUtility.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\DAL\bin\Release\Model.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\DAL\bin\Release\DBUtility.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\DAL\bin\Release\Model.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\DAL\obj\Release\DAL.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\DAL\obj\Release\DAL.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\DAL\bin\Release\DAL.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\DAL\bin\Release\DAL.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\DAL\bin\Release\DBUtility.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\DAL\bin\Release\Model.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\DAL\bin\Release\DBUtility.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\DAL\bin\Release\Model.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\DAL\obj\Release\DAL.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\DAL\obj\Release\DAL.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\DAL\bin\Release\DAL.dll
+C:\Users\Administrator\Desktop\code\JZHQ\DAL\bin\Release\DAL.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\DAL\bin\Release\DBUtility.dll
+C:\Users\Administrator\Desktop\code\JZHQ\DAL\bin\Release\Model.dll
+C:\Users\Administrator\Desktop\code\JZHQ\DAL\bin\Release\DBUtility.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\DAL\bin\Release\Model.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\code\JZHQ\DAL\obj\Release\DAL.dll
+C:\Users\Administrator\Desktop\code\JZHQ\DAL\obj\Release\DAL.pdb
+C:\Users\carl110\Desktop\code\JZHQ\DAL\bin\Release\DAL.dll
+C:\Users\carl110\Desktop\code\JZHQ\DAL\bin\Release\DAL.pdb
+C:\Users\carl110\Desktop\code\JZHQ\DAL\bin\Release\DBUtility.dll
+C:\Users\carl110\Desktop\code\JZHQ\DAL\bin\Release\Model.dll
+C:\Users\carl110\Desktop\code\JZHQ\DAL\bin\Release\DBUtility.pdb
+C:\Users\carl110\Desktop\code\JZHQ\DAL\bin\Release\Model.pdb
+C:\Users\carl110\Desktop\code\JZHQ\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\carl110\Desktop\code\JZHQ\DAL\obj\Release\DAL.dll
+C:\Users\carl110\Desktop\code\JZHQ\DAL\obj\Release\DAL.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\DAL\bin\Release\MySql.Data.dll

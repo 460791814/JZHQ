@@ -1,0 +1,56 @@
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\BLL\bin\Release\BLL.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\BLL\bin\Release\BLL.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\BLL\bin\Release\DAL.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\BLL\bin\Release\Model.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\BLL\bin\Release\DBUtility.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\BLL\bin\Release\DAL.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\BLL\bin\Release\Model.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\BLL\bin\Release\DBUtility.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\BLL\obj\Release\BLL.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\BLL\obj\Release\BLL.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\BLL\bin\Release\BLL.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\BLL\bin\Release\BLL.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\BLL\bin\Release\DAL.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\BLL\bin\Release\Model.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\BLL\bin\Release\DBUtility.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\BLL\bin\Release\DAL.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\BLL\bin\Release\Model.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\BLL\bin\Release\DBUtility.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\BLL\obj\Release\BLL.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\BLL\obj\Release\BLL.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\BLL\bin\Release\BLL.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\BLL\bin\Release\BLL.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\BLL\bin\Release\DAL.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\BLL\bin\Release\Model.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\BLL\bin\Release\DBUtility.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\BLL\bin\Release\DAL.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\BLL\bin\Release\Model.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\BLL\bin\Release\DBUtility.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\BLL\obj\Release\BLL.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\BLL\obj\Release\BLL.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\BLL\bin\Release\BLL.dll
+C:\Users\Administrator\Desktop\code\JZHQ\BLL\bin\Release\BLL.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\BLL\bin\Release\DAL.dll
+C:\Users\Administrator\Desktop\code\JZHQ\BLL\bin\Release\Model.dll
+C:\Users\Administrator\Desktop\code\JZHQ\BLL\bin\Release\DBUtility.dll
+C:\Users\Administrator\Desktop\code\JZHQ\BLL\bin\Release\DAL.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\BLL\bin\Release\Model.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\BLL\bin\Release\DBUtility.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\code\JZHQ\BLL\obj\Release\BLL.dll
+C:\Users\Administrator\Desktop\code\JZHQ\BLL\obj\Release\BLL.pdb
+C:\Users\carl110\Desktop\code\JZHQ\BLL\bin\Release\BLL.dll
+C:\Users\carl110\Desktop\code\JZHQ\BLL\bin\Release\BLL.pdb
+C:\Users\carl110\Desktop\code\JZHQ\BLL\bin\Release\DAL.dll
+C:\Users\carl110\Desktop\code\JZHQ\BLL\bin\Release\Model.dll
+C:\Users\carl110\Desktop\code\JZHQ\BLL\bin\Release\DBUtility.dll
+C:\Users\carl110\Desktop\code\JZHQ\BLL\bin\Release\DAL.pdb
+C:\Users\carl110\Desktop\code\JZHQ\BLL\bin\Release\Model.pdb
+C:\Users\carl110\Desktop\code\JZHQ\BLL\bin\Release\DBUtility.pdb
+C:\Users\carl110\Desktop\code\JZHQ\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\Users\carl110\Desktop\code\JZHQ\BLL\obj\Release\BLL.dll
+C:\Users\carl110\Desktop\code\JZHQ\BLL\obj\Release\BLL.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\BLL\bin\Release\MySql.Data.dll

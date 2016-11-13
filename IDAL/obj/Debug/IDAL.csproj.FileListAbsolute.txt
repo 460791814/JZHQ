@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\code\JZHQ\IDAL\bin\Debug\IDAL.dll
+C:\Users\Administrator\Desktop\code\JZHQ\IDAL\bin\Debug\IDAL.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\IDAL\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\code\JZHQ\IDAL\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\IDAL\obj\Debug\IDAL.dll
+C:\Users\Administrator\Desktop\code\JZHQ\IDAL\obj\Debug\IDAL.pdb
+C:\Users\carl110\Desktop\code\JZHQ\IDAL\bin\Debug\IDAL.dll
+C:\Users\carl110\Desktop\code\JZHQ\IDAL\bin\Debug\IDAL.pdb
+C:\Users\carl110\Desktop\code\JZHQ\IDAL\bin\Debug\Model.dll
+C:\Users\carl110\Desktop\code\JZHQ\IDAL\bin\Debug\Model.pdb
+C:\Users\carl110\Desktop\code\JZHQ\IDAL\obj\Debug\IDAL.dll
+C:\Users\carl110\Desktop\code\JZHQ\IDAL\obj\Debug\IDAL.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+C:\Users\carl110\Desktop\code\JZHQ\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache

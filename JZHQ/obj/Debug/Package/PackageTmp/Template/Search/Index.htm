@@ -1,0 +1,111 @@
+﻿<!doctype html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<title>磁力种子</title>
+    <link href="/Styles/index.css" rel="stylesheet" type="text/css" />
+    <script src="/Scripts/jquery.js" type="text/javascript"></script>
+    <script src="/Scripts/search.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+
+
+            $.ajax({
+                url: "/Handler/GetCount.ashx",
+                data: "method=getsoftcount",
+                type: "Post",
+                success: function (data) {
+                    $("#dd").html("总共收录：" + data+"个");
+                },
+                error: function () {
+                
+                }
+            });
+            $.ajax({
+                url: "/Handler/GetCount.ashx",
+                data: "method=getzuoricount",
+                type: "Post",
+                success: function (data) {
+                    $("#H1").html("昨日收录：" + data + "个");
+                },
+                error: function () {
+                  
+                }
+            });
+            $.ajax({
+                url: "/Handler/GetCount.ashx",
+                data: "method=jinri",
+                type: "Post",
+                success: function (data) {
+                    $("#H2").html("今日收录：" + data + "个");
+                },
+                error: function () {
+                    
+                }
+            });
+
+        })
+
+    </script>
+</head>
+
+<body>
+<div id="m">
+  <div class="logo">磁力搜索</div>
+  <p id="nv"><a href="/hashtobt/" name="tj_news">磁力转换</a></p>
+  <div id="fm">
+    <div class="fm">
+      <span class="bg s_ipt_wr">
+      	<input type="text" name="wd" id="keyWord" maxlength="100" class="s_ipt" autocomplete="off">
+      </span>
+    
+      <span class="bg s_btn_wr">
+      <input type="submit" value="搜索一下" id="btnSouba"  class="bg s_btn" onMouseDown="this.className='bg s_btn s_btn_h'" onMouseOut="this.className='bg s_btn'">
+      </span>
+    </div>
+  </div>
+  
+  <div id="hotTag">
+  	<h2 id="dd">总共收录：</h2>
+    <h2 id="H2">今日收录：</h2>
+      	<h2 id="H1">昨日收录：</h2>
+  	<h2>热门搜索</h2>
+    <div class="tags">
+    	<a href="/list/变形金刚4/1"  style="color: #f15c5f; font-size: 55px; top: 80px; left: 125px;">变形金刚4</a>
+        <a href="/list/ 窃听风云3/1"  style="color: #ef7c57; font-size: 40px; top: 96px; left: 288px;"> 窃听风云3</a>
+        <a href="/list/ X战警：逆转未来/1" style="font-size: 45px; color: #ffa95c; top: 135px; left: 169px;"> X战警：逆转未来</a>
+    	<a href="/list/明日边缘/1" style="font-size: 35px; color: #4889e2; top: 43px; left: 156px;">明日边缘  </a>
+        <a href="/list/ 超凡蜘蛛侠2/1" style="font-size:36px; color: #236dd9; top: 54px; left: 370px;">超凡蜘蛛侠2</a> 
+        <a href="/list/整容日记/1" style="font-size: 19px; color: #f0517c; top: 42px; left: 97px;">整容日记</a>
+        <a href="/list/蜘蛛侠3/1" style="font-size:18px; color: #d654b6; top: 19px; left: 180px;">蜘蛛侠3</a>
+        <a href="/list/蜂鸟特攻/1" style="font-size:20px; color: #e46744; top: 23px; left: 254px;">蜂鸟特攻</a>
+        <a href="/list/绝色武器/1" style="font-size:15px; color: #e76d9e; top: 7px; left: 300px;">绝色武器</a>
+        <a href="/list/私人订做/1" style="font-size:30px; color: #ffd058; top: 21px; left: 373px;">私人订做</a>
+        <a href="/list/笑功震武林/1" style="font-size:17px; color: #ffa95c; top: 52px; left: 312px;">笑功震武林</a>
+        <a href="/list/激战/1" style="font-size:15px; color: #7f6eb5; top: 75px; left: 287px;">激战</a>
+        <a href="/list/天海翼/1" style="font-size: 25px; color: #097bf4; top: 96px; left: 34px;">天海翼</a>
+        <a href="/list/猎仇者/1" style="font-size: 18px; color: #f295b9; left: 491px; top: 104px;">猎仇者</a>
+        <a href="/list/西野翔/1" style="font-size:25px; color: #e76d9e; top: 140px; left: 93px;">西野翔</a>
+        <a href="/list/新少林寺/1"  style="font-size: 25px; color: #7f6eb5; left: 302px; top: 140px;">新少林寺</a>
+        <a href="/list/黑暗之光/1" style="left: 403px; top: 139px; font-size: 25px; color: #cad38f;">黑暗之光</a>
+        <a href="/list/化妆师/1" style="top: 167px; left: 61px; font-size: 25px; color: #ff6b5b;">化妆师</a>
+        <a href="/list/寻龙夺宝/1" style=" top: 182px; left: 187px; font-size: 18px; color: #df7456; ">寻龙夺宝</a>
+        <a href="/list/有招没招/1" style="font-size: 21px; color: #e6af56; left: 324px; top: 170px;">有招没招</a>
+     </div>
+  </div>
+  
+      <!-- JiaThis Button BEGIN -->
+    <div class="jiathis_style_24x24" style="padding: 0; float: right">
+        <span class="jiathis_txt" style="font-size: 16px;">分享到：</span>
+        <a class="jiathis_button_qzone"></a>
+        <a class="jiathis_button_tsina"></a>
+        <a class="jiathis_button_tqq"></a>
+        <a class="jiathis_button_weixin"></a>
+        <a class="jiathis_button_renren"></a>
+        <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+        
+    </div>
+        <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+
+</body>
+</html>

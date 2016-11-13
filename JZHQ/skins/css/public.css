@@ -1,0 +1,62 @@
+/* CSS Document */
+html,body{margin: 0;padding: 0;border: 0;font-size:12px; line-height:22px;background:#FFF;}
+*html{background-image:url(about:blank);background-attachment:fixed;}/*解决IE6下滚动抖动的问题*/
+form,ul,li,h1,h2,h3,h4,h5,h6,tt,p,dl{padding:0px;margin:0px; list-style:none;list-style-image: none;list-style-type: none;list-style-position: outside;}
+img,table{border: none;}
+em{font-style:normal;}
+h3 {font-size: 14px}
+a img, :link img, :visited img {border: 0;}  
+a{text-decoration:none;;}
+a:hover{text-decoration:none;}
+.left{float:left;}
+.right{float:right;}
+
+/*轮换图*/
+.tab{width:488px; height:218px; margin:0 auto; position:relative; overflow:hidden;}
+.tab ul{ padding:0; margin:0;position:absolute;left:0;top:0;}
+.tab ul li{padding:0; margin:0;width:488px;height:218px;list-style:none; text-align:center; line-height:218px; font-size:50px;color:#fff; font-weight:bolder;}
+.tab .shade{position:absolute;height:25px;width:488px; bottom:0;left:0;}
+.tab .items{ height:25px; line-height:25px;width:488px; text-align:right; position:absolute; bottom:5px; right:30px;}
+.tab .items span{ padding:2px 5px;color:#fff;background:#0099FF;margin-left:5px;}
+.tab .items span.curr{color:#FF0000;background:#0099FF;}
+/*轮换图*/
+/*.yi_left .yi{margin-top:5px;}
+.yi_left .yi .yi_1{width:326px;border:1px solid #bed9e4;float:left;}
+.yi_left .yi .yi_2{width:326px;border:1px solid #bed9e4;float:left;margin-left:7px;}
+.yi_left .yi .top{height:33px;background:url(../imgs/bq_bg.jpg) no-repeat;line-height:33px;}
+.yi_left .yi .top span{display:block;float:left;margin-left:35px;font-size:14px;font-weight:bold;display:inline;}
+.yi_left .yi .top a{display:block;float:right;margin-right:10px;color:#999999;font-size:14px;display:inline;}
+.yi_left .yi .top a:hover{color:#FF0000;}
+.yi_left .yi ul li{margin-left:10px;line-height:25px;}
+.yi_left .yi ul li a{color:#333;}
+.yi_left .yi ul li a:hover{color:#FF0000;}*/
+
+.yi_left .yi{margin-top:5px;height:245px;}
+.yi_left .yi .yi_1{width:326px;height:240px;border:1px solid #bed9e4;float:left;}
+.yi_left .yi .yi_2{width:326px;height:240px;border:1px solid #bed9e4;float:left;margin-left:7px;}
+.yi_left .yi .top{height:33px;background:url(../imgs/bq_bg.jpg) no-repeat;line-height:33px;}
+.yi_left .yi .top span{float:left;margin-left:35px;font-size:14px;font-weight:bold; color:#000;}
+.yi_left .yi .top span a{color:#000;}
+.yi_left .yi .top em{float:right; width:50px; display:block;}
+.yi_left .yi .top em a{color:#999;}
+.yi_left .yi .top a{display:block;margin-right:10px;font-size: 12px;display:inline;}
+.yi_left .yi .top a:hover{color:#FF0000;}
+.yi_left .yi ul{margin-top:5px;}
+.yi_left .yi ul li{margin-left:10px;line-height:25px;}
+.yi_left .yi ul li a{color:#333;}
+.yi_left .yi ul li a:hover{color:#FF0000;}
+
+.mxtj li{padding:0px 10px;}
+.mxtj li a{float:left;}
+.mxtj li span{float:right; color:#090;}
+
+.img_wz{clear:both;overflow:hidden; margin-bottom:5px;}
+
+.looplist{text-align:left; padding:0px 10px}
+.looplist_left{width:290px; float:left;}
+.looplist_right{width:169px; float:right;}
+
+/* ************底部样式****************** */
+.footer{font-size:12px; border-top:1px solid #E1E1E1; text-align:center; padding-top:10px; overflow:hidden; margin-top:20px; line-height:22px;clear:both}
+.footer a{color:#000;}
+.footer a:hover{color:#f00;}

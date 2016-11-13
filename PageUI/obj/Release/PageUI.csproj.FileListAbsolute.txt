@@ -1,0 +1,96 @@
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\PageUI.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\PageUI.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\BLL.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\LibraryTool.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\Lucene.Net.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\Model.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\PanGu.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\PanGu.HighLight.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\PanGu.Lucene.Analyzer.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\DAL.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\DBUtility.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\BLL.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\LibraryTool.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\Model.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\DAL.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\bin\Release\DBUtility.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\obj\Release\PageUI.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\obj\Release\PageUI.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\PageUI\obj\Release\PageUI.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\obj\Release\PageUI.csprojResolveAssemblyReference.cache
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\obj\Release\PageUI.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\PageUI.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\PageUI.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\BLL.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\LibraryTool.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\Lucene.Net.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\Model.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\PanGu.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\PanGu.HighLight.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\PanGu.Lucene.Analyzer.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\DAL.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\DBUtility.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\BLL.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\LibraryTool.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\Model.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\DAL.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\bin\Release\DBUtility.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\PageUI\obj\Release\PageUI.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\PageUI.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\PageUI.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\BLL.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\LibraryTool.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\Lucene.Net.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\Model.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\PanGu.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\PanGu.HighLight.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\PanGu.Lucene.Analyzer.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\DAL.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\DBUtility.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\BLL.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\LibraryTool.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\Model.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\DAL.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\bin\Release\DBUtility.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\obj\Release\PageUI.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\obj\Release\PageUI.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\PageUI\obj\Release\PageUI.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\PageUI.dll
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\PageUI.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\BLL.dll
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\LibraryTool.dll
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\Lucene.Net.dll
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\Model.dll
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\PanGu.dll
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\PanGu.HighLight.dll
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\PanGu.Lucene.Analyzer.dll
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\DAL.dll
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\DBUtility.dll
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\BLL.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\LibraryTool.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\Model.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\DAL.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\DBUtility.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\obj\Release\PageUI.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\obj\Release\PageUI.dll
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\obj\Release\PageUI.pdb
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\PageUI.dll
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\PageUI.pdb
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\BLL.dll
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\LibraryTool.dll
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\Lucene.Net.dll
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\Model.dll
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\PanGu.dll
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\PanGu.HighLight.dll
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\PanGu.Lucene.Analyzer.dll
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\DAL.dll
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\DBUtility.dll
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\BLL.pdb
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\LibraryTool.pdb
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\Model.pdb
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\DAL.pdb
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\bin\Release\DBUtility.pdb
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\obj\Release\PageUI.csprojResolveAssemblyReference.cache
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\obj\Release\PageUI.dll
+C:\Users\carl110\Desktop\code\JZHQ\PageUI\obj\Release\PageUI.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\PageUI\bin\Release\MySql.Data.dll

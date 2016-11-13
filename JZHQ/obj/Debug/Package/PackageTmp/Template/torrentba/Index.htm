@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Torrentba-番号磁力链接搜索下载引擎</title>
+    <meta name="keywords" content="番号,番号搜索,磁力,磁力搜索,磁力链接,磁力下载,磁力搜索引擎,torrent" />
+    <meta name="description" content="TorrentBa是集番号于一身的磁力链接搜索引擎,目前为止已经收录了过百万的磁力链接,额外提供云点播,番号搜索,磁力链接转换BT种子,BT种子转换磁力链接等.比torrentkitty更方便,更好用." />
+    <link rel="stylesheet" type="text/css" media="screen" charset="utf-8" href="/Template/torrentba/Styles/global.css" />
+    <meta name="mobile-agent" content="format=html5;url=http://m.torrentba.com/">
+  <!--  <script src="/Template/torrentba/Scripts/uaredirect.js" type="text/javascript"></script>-->
+     <script src="/Scripts/jquery.js" type="text/javascript"></script>
+    <script src="/Template/torrentba/Scripts/search.js" type="text/javascript"></script>
+    <div id="loading-cover">
+    </div>
+    <div id="loading-icon">
+  <img src="/Template/torrentba/picture/loading.gif" />载入中...</div>
+</head>
+<body class="os_win7 home">
+    <div class="lay_topfixed">
+        <div class="lay_topfixed_inner">
+            <div id="toolbar_container" class="gb_toolbar">
+                <div class="wrap clearfix">
+                    <a title="TorrentBa" class="logo fl" href="/" id="aNavBarLogo"><span class="none">T吧</span></a>
+                    <div class="banner fl">
+                        <ul>
+                            <li><a title="网站首页" class="a_txt" href="/" id="aIcenter"><span>网站首页</span></a></li>
+                            <li><a title="任意门" class="a_txt" href="/renyi.html" id="aIcenter"><span>任意门</span></a></li>
+                            <li class="tablist" id="liNav_1"><a title="BT资源" class="tablist_link a_txt now_on"
+                                href="#" id="aMainPage"><span class="tablist_link_i">BT资源<b class="a_trig"></b></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="userinfo fr">
+                        <span href="javascript:;" class="now_hover userinfo_tit"><span class="user_name"><a
+                            href="http://m.torrentba.com">手机版</a></span> <span class="user_name">|</span> <span
+                                class="user_name"><a href="http://www.torrentba.com">中文版</a></span> <span class="user_name">
+                                    |</span> <span class="user_name"><a href="http://jp.torrentba.com">日本语</a></span>
+                            <span class="user_name">|</span> <span class="user_name"><a href="http://en.torrentba.com">
+                                English</a></span> </span>
+                    </div>
+                    <div class="appbox pop_box pop_bg pop_bor none" id="divNavBox_1">
+                        <div class="inner pop_bor2 clearfix baseapp_wrap" id="divRouteAppBoxFolder">
+                            <div class="applist">
+                                <ul class="clearfix" id="ulRouteAppList">
+                                    <li>
+                                        <div class="app_item">
+                                            <a title="全部" href="#"><i class="icon_baseapp icon_app_1"></i><span>全部</span></a></div>
+                                    </li>
+                                    <li>
+                                        <div class="app_item">
+                                            <a title="电影" href="/b/2.html"><i class="icon_baseapp icon_app_2"></i><span>电影</span></a></div>
+                                    </li>
+                                    <li>
+                                        <div class="app_item">
+                                            <a title="动漫" href="/b/5.html"><i class="icon_baseapp icon_app_4"></i><span>动漫</span></a></div>
+                                    </li>
+                                    <li>
+                                        <div class="app_item">
+                                            <a title="电视剧" href="/b/3.html"><i class="icon_baseapp icon_app_5"></i><span>电视剧</span></a></div>
+                                    </li>
+                                    <li>
+                                        <div class="app_item">
+                                            <a title="综艺" href="/b/4.html"><i class="icon_baseapp icon_app_6"></i><span>综艺</span></a></div>
+                                    </li>
+                                    <li>
+                                        <div class="app_item">
+                                            <a title="游戏" href="/b/6.html"><i class="icon_baseapp icon_app_3"></i><span>游戏</span></a></div>
+                                    </li>
+                                    <li>
+                                        <div class="app_item">
+                                            <a title="番号" href="/b/7.html"><i class="icon_baseapp icon_app_10"></i><span>番号</span></a></div>
+                                    </li>
+                                    <li>
+                                        <div class="app_item">
+                                            <a title="其它" href="/b/8.html"><i class="icon_baseapp icon_app_10"></i><span>其它</span></a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home_bd1">
+        <div class="home_logo">
+            <a href="http://www.torrentba.com" title="TorrentBa-最大的磁力搜索引擎">
+                <img src="/Template/torrentba/picture/logo_home.png" title="TorrenTBa">TorrenTBa</a></div>
+    </div>
+    <div class="home_bd">
+        <div id="search-box">
+            <div  target="_self">
+        <span id="input-container">                 
+          <div id="suggest-align">
+                <input type="text" name="q" id="input" suggestwidth="501px" autocomplete="off" x-webkit-speech=""><cite id="suggest-tp"></cite>
+            </div>
+            <div id="sug-arrow"><span id="sug-new"></span></div>
+        </span><input type="button" id="search-button" value="搜索一下" onclick="search()" onmouseover="this.className='hover'" onmousedown="this.className='mousedown'" onmouseout="this.className=''" class="" />
+    </div>
+        </div>
+        <div id="search-box">
+            <div class="qire-notice">
+                <h1>
+                    手机版正式上线,欢迎大家使用移动端访问我们网站..如果你觉得本站好用的,请到这里评价下本站：<a href="http://koubei.baidu.com/s/www.torrentba.com"
+                        rel="nofollow" target="_blank" title="百度口碑">点这里</a></h1>
+            </div>
+        </div>
+        <div class="FenlieCont">
+            <div class="head" style="width: 85px">
+                <div onmouseover="ShowTab(1,1,5)" id="Span1" style="width: 85px" class="choose">
+                    热门搜索</div>
+                <div onmouseover="ShowTab(2,1,5)" id="Span2" style="width: 85px" class="">
+                    推荐资源</div>
+                <div onmouseover="ShowTab(3,1,5)" id="Span3" style="width: 85px" class="">
+                    最新资源</div>
+                <div onmouseover="ShowTab(4,1,5)" id="Span4" style="width: 85px" class="">
+                    随即资源</div>
+            </div>
+            <div class="cont" id="Tab1" style="">
+                <ul class="remenk">
+                    <li><a href="http://www.torrentba.com/search/ipz/">ipz</a></li><li><a href="http://www.torrentba.com/search/Tokyo-Hot/">
+                        Tokyo-Hot</a></li><li><a href="http://www.torrentba.com/search/dvdes/">dvdes</a></li><li>
+                            <a href="http://www.torrentba.com/search/Swarm/">Swarm</a></li><li><a href="http://www.torrentba.com/search/上原亚衣/">
+                                上原亚衣</a></li><li><a href="http://www.torrentba.com/search/学校/">学校</a></li><li><a
+                                    href="http://www.torrentba.com/search/苍井空/">苍井空</a></li><li><a href="http://www.torrentba.com/search/ExclusiveTeenPorn/">
+                                        ExclusiveTeenPorn</a></li><li><a href="http://www.torrentba.com/search/Tokyo-Ho/">Tokyo-Ho</a></li><li>
+                                            <a href="http://www.torrentba.com/search/Tayler/">Tayler</a></li><li><a href="http://www.torrentba.com/search/中文字幕/">
+                                                中文字幕</a></li><li><a href="http://www.torrentba.com/search/美女/">美女</a></li><li><a
+                                                    href="http://www.torrentba.com/search/波多野结衣/">波多野结衣</a></li><li><a href="http://www.torrentba.com/search/av/">
+                                                        av</a></li><li><a href="http://www.torrentba.com/search/自拍/">自拍</a></li><li><a href="http://www.torrentba.com/search/Hasegawa/">
+                                                            Hasegawa</a></li><li><a href="http://www.torrentba.com/search/square/">square</a></li><li>
+                                                                <a href="http://www.torrentba.com/search/无码/">无码</a></li><li><a href="http://www.torrentba.com/search/Abs/">
+                                                                    Abs</a></li><li><a href="http://www.torrentba.com/search/幼/">幼</a></li><li><a href="http://www.torrentba.com/search/Uyirvani/">
+                                                                        Uyirvani</a></li><li><a href="http://www.torrentba.com/search/Cherie/">Cherie</a></li><li>
+                                                                            <a href="http://www.torrentba.com/search/nhdta/">nhdta</a></li><li><a href="http://www.torrentba.com/search/Dus/">
+                                                                                Dus</a></li><li><a href="http://www.torrentba.com/search/强奸/">强奸</a></li>
+            </div>
+            <div class="cont" id="Tab2" style="display: none;">
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416434.html" target="_blank">【美剧】【热血车城】.mp4</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416442.html" target="_blank">【美剧】【热血车城】.mp4</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416455.html" target="_blank">新笑傲江湖 720P 高清 2013
+                        霍建华版.mkv</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416465.html" target="_blank">新笑傲江湖 720P 高清 2013
+                        霍建华版.mkv</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416475.html" target="_blank">【美剧】【热血车城】.mkv</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416487.html" target="_blank">【美剧】【热血车城】.mp4</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416493.html" target="_blank">血玫瑰第一季泄露版 Red Widow
+                        (2013) S01 WEBRip.mp4</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416503.html" target="_blank">【美剧】【忍者神龟 2012】.rmvb</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416515.html" target="_blank">【美剧】【忍者神龟 2012】.mp4</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416522.html" target="_blank">【美剧】【忍者神龟 2012】.mkv</a></div>
+            </div>
+            <div class="cont" id="Tab3" style="display: none;">
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/14006261.html" target="_blank">CTD_066-AVI@99P2P</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/14006255.html" target="_blank">国内国模小菲最完整视频三合一尿尿打炮自拍[+国产屋内情侣看A片打炮特别刺激国语对话+周末与欲求不滿情人酒店激战</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/14006247.html" target="_blank">tanw或yk3325@RSAMA_182</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/14006233.html" target="_blank">MKD-S18 最強美少女之超级23連發</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/14006221.html" target="_blank">晚中晚@美丝诱惑义母@18P2P</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/14006215.html" target="_blank">10musume-041313_01-HD</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/14006205.html" target="_blank">cllshuai@www.SexInses.net@學生輪姦女老師懷孕懷了大伯的小孩懷了公公的小孩
+                        等4個故事(中文字幕)</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/14006195.html" target="_blank">SKYHD-103-BD</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/14006187.html" target="_blank">FAX286 AVI</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/14006174.html" target="_blank">SPRD430 AVI</a></div>
+            </div>
+            <div class="cont" id="Tab4" style="display: none;">
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416434.html" target="_blank">【美剧】【热血车城】.mp4</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416442.html" target="_blank">【美剧】【热血车城】.mp4</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416455.html" target="_blank">新笑傲江湖 720P 高清 2013
+                        霍建华版.mkv</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416465.html" target="_blank">新笑傲江湖 720P 高清 2013
+                        霍建华版.mkv</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416475.html" target="_blank">【美剧】【热血车城】.mkv</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416487.html" target="_blank">【美剧】【热血车城】.mp4</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416493.html" target="_blank">血玫瑰第一季泄露版 Red Widow
+                        (2013) S01 WEBRip.mp4</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416503.html" target="_blank">【美剧】【忍者神龟 2012】.rmvb</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416515.html" target="_blank">【美剧】【忍者神龟 2012】.mp4</a></div>
+                <div class="list">
+                    <a href="http://www.torrentba.com/bt/12416522.html" target="_blank">【美剧】【忍者神龟 2012】.mkv</a></div>
+            </div>
+            <script language="JavaScript">                ShowTab(1, 1, 4);</script>
+        </div>
+        <div class="page-container-holder clearfix">
+            <div class="tips">
+                <div class="ttext">
+                    当前统计</div>
+                <div data-size="1278689" id="item_size">
+                    <span class="size_tb"><b>&nbsp;</b><b>&nbsp;</b><b>&nbsp;</b><b>&nbsp;</b></span>
+                    <span class="size_gb"><b>&nbsp;</b><b>&nbsp;</b><b>&nbsp;</b></span> <span class="size_point">
+                        <b>.</b></span> <span><b>&nbsp;</b><b>&nbsp;</b><b>&nbsp;</b></span>
+                </div>
+                <div class="ttext">
+                    GB资源</div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="container">
+        <div class="foot-nav">
+            <a target="_blank" href="#">开发者API</a> <a target="_blank" href="#">使用手册</a> <a target="_blank"
+                href="#">申请加入</a> <a target="_blank" href="http://www.torrentba.com/d/1.html">广告服务</a>
+            <a target="_blank" href="http://www.torrentba.com/d/2.html">关于我们</a> <a target="_blank"
+                href="http://www.torrentba.com/d/2.html">免责声明</a> <a target="_blank" href="http://www.torrentba.com/sitemap.xml">
+                    网站地图</a>
+        </div>
+        <div id="copyright">
+            Copyright &copy; 2014-2016 TorrentBa all rights reserved.</div>
+        <span style="display: none">
+            <script type="text/javascript">                var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_5705517'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s9.cnzz.com/stat.php%3Fid%3D5705517' type='text/javascript'%3E%3C/script%3E"));</script>
+            <script type="text/javascript" c="fc" charset="utf-8" src="Scripts/cs.php"></script>
+        </span>
+    </div>
+    
+ <script type="text/javascript" src="/Template/torrentba/Scripts/index.js"></script>
+   <script type="text/javascript" src="/Template/torrentba/Scripts/toolbar.js"></script>
+   <script src="/Template/torrentba/Scripts/common.js" type="text/javascript"></script>
+    <script type="text/javascript">        finish_loading();</script>
+    <script>        window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "slide": { "type": "slide", "bdImg": "5", "bdPos": "left", "bdTop": "240.5" }, "image": { "viewList": ["qzone", "tsina", "tqq", "renren", "weixin"], "viewText": "分享到：", "viewSize": "16" }, "selectShare": { "bdContainerClass": null, "bdSelectMiniList": ["qzone", "tsina", "tqq", "renren", "weixin"]} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+    <script type="text/javascript" charset="utf-8" src="/Template/torrentba/Scripts/load_1.php"></script>
+    <noscript>
+        <a href="http://www.cpv6.com/" rel="nofollow" target="_blank">风车广告联盟</a></noscript></body>
+</html>
